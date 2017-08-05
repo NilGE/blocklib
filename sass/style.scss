@@ -1,0 +1,74 @@
+$btn-active-color: #000;
+
+$default-btn-color: #4c4c4c;
+$default-btn-bgd-color: #fff;
+$default-btn-hover-bgd-color: #676767;
+$default-btn-hover-color: #fff;
+
+$blue-btn-bgd-color: #4ab6f0;
+$blue-btn-color: #fff;
+$blue-btn-hover-bgd-color: #0084cc;
+
+$green-btn-bgd-color: #a4da19;
+$green-btn-color: #fff;
+$green-btn-hover-bgd-color: #688a10;
+
+.btn {
+  border: 1px solid $default-btn-color;
+  border-radius: 4px;
+  padding: 12px 15px;
+  font-size: 13px;
+  color: $default-btn-color;
+  background-color: $default-btn-bgd-color;
+  outline: none;
+  transition: background-color 0.5s ease;
+  white-space: nowrap;
+}
+
+.btn-sm {
+  border-radius: 3px;
+  padding: 10px 13px;
+  font-size: 11px;
+}
+
+.btn-lg {
+  border-radius: 5px;
+  padding: 15px 18px;
+  font-size: 16px;
+}
+
+.btn:hover {
+  color: $default-btn-hover-color;
+  background-color: $default-btn-hover-bgd-color;
+  border-color: $default-btn-hover-bgd-color;
+}
+
+.btn:active {
+  color: $btn-active-color;
+}
+
+.btn-blue {
+  color: $blue-btn-color;
+  background-color: $blue-btn-bgd-color;
+  border-color: $blue-btn-bgd-color;
+}
+
+.btn-blue:hover {
+  background-color: $blue-btn-hover-bgd-color;
+  border-color: $blue-btn-hover-bgd-color;
+}
+
+.btn-green {
+  color: $green-btn-color;
+  background-color: $green-btn-bgd-color;
+  border-color:$green-btn-bgd-color;
+}
+
+.btn-green:hover {
+  background-color: $green-btn-hover-bgd-color;
+  border-color: $green-btn-hover-bgd-color;
+}
+
+.btn-full {
+  width: 100%;
+}
